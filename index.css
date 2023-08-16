@@ -96,3 +96,9 @@ button:hover{
 #calc-button:hover{
     background-color: var(--hover-color);
 }
+.credits{
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    color: var(--placeholder-color);
+}
