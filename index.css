@@ -1,0 +1,82 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --background-Color: #F2F4F4;
+    --color1: #EAECEE;
+    --color2: #D5D8DC;
+    --placeholder-color: #808B96;
+    --font-color: #17202A;
+}
+::placeholder{
+    color: #808B96;
+    opacity: 1;
+}
+body{
+    font-family:'Rubik', sans-serif;
+    height: 100vh;
+    background-color: var(--background-Color);
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 100;
+    color: var(--font-color);
+}
+.container {
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 90%;
+    justify-content: space-between;
+}
+.course-form{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    gap: 1px;
+    height: 40px;
+    margin: 1px 0;
+}
+.reset{
+    color: var(--placeholder-color)
+}
+input{
+    background-color: var(--color1);
+    border: 0;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 8%;
+    text-align: center;
+    margin: 2px 
+}
+button{
+    color: var(--placeholder-color);
+    background-color: var(--color1);
+    border: 0;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 3%;
+    text-align: center;
+    margin: 2px 
+}
+#calc-button{
+    background-color: var(--color2);
+}
+#forms {
+    display: flex;
+    flex-direction: column;   
+}
+.input-field {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+#gpa{
+    margin: 18px auto;
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--font-color);
+}
