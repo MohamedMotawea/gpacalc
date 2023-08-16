@@ -63,6 +63,10 @@ button{
     text-align: center;
     margin: 2px 
 }
+button:hover{
+    background-color: #47474761;
+    color: #17202A;
+}
 #calc-button{
     background-color: var(--color2);
 }
