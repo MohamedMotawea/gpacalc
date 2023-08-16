@@ -43,7 +43,8 @@ h1{
     margin: 1px 0;
 }
 .reset{
-    color: var(--placeholder-color)
+    color: var(--placeholder-color);
+    background-color: var(--color2);
 }
 input:hover::placeholder{
     color: var(--font-color);
