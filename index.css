@@ -10,6 +10,7 @@
     --color2: #D5D8DC;
     --placeholder-color: #808B96;
     --font-color: #17202A;
+    --hover-color: #47474761;
 }
 ::placeholder{
     color: #808B96;
@@ -43,6 +44,13 @@ h1{
 }
 .reset{
     color: var(--placeholder-color)
+}
+input:hover::placeholder{
+    color: var(--font-color);
+}
+input:hover{
+    background-color: var(--hover-color);
+    color: var(--font-color);
 }
 input{
     background-color: var(--color1);
@@ -83,4 +91,7 @@ button:hover{
     font-size: 35px;
     font-weight: 500;
     color: var(--font-color);
+}
+#calc-button:hover{
+    background-color: var(--hover-color);
 }
